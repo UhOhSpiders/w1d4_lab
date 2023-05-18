@@ -15,5 +15,35 @@ def likes_to_eat(person, food):
 def add_friend(person, friend):
     person["friends"].append(friend)
 
+def remove_friend(person, friend):
+    person["friends"].remove(friend)
 
+def total_money(people):
+    tot_money = 0
+    for person in people:
+        tot_money += person["monies"]
+    return tot_money
+   
+def lend_money(lender, lendee, loan_amount):
+    lender["monies"] -= loan_amount
+    lendee["monies"] += loan_amount
+
+ #this is as far as we got   
+def all_favourite_foods(people):
+    favourite_foods = []
+    for person in persons:
+
+
+
+    #PERSON 1 - LOAN AMOUNT
+    #PERSON 2 + LOAN AMOUNT
+
+
+
+
+
+    # monies = []
+    # for money in bank:
+    #     monies.append(money["monies"])
+    #     money_total = sum(monies)
 
