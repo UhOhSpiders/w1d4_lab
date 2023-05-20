@@ -31,8 +31,17 @@ def lend_money(lender, lendee, loan_amount):
  #this is as far as we got   
 def all_favourite_foods(people):
     favourite_foods = []
-    for person in persons:
 
+    for person in people:
+        favourite_foods += (person["favourites"]["snacks"])
+    return favourite_foods
+
+# def all_favourite_foods(favourites):
+#     favourite_foods = []
+
+#     for snack in ["favourites"]["snacks"]:
+#         favourite_foods.append(snack)
+#     return favourite_foods
 
 
     #PERSON 1 - LOAN AMOUNT
